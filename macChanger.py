@@ -9,7 +9,7 @@ mac_address = ''
 
 def get_input():
     parser = optparse.OptionParser()
-    parser.add_option('-i','--interface',dest='interface',help='bu secim interface secimiucun istifade olunur')
+    parser.add_option('-i','--interface',dest='interface',help='bu secim interface secimi ucun istifade olunur')
     parser.add_option('-m','--mac',dest='mac_address',help='bu secim mac address secimi ucun istifade olunur')
     return parser.parse_args()
 
